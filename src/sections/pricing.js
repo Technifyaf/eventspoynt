@@ -9,11 +9,11 @@ import Switch from 'components/switch';
 const data = [
   {
     id: 1,
-    title: 'Startup Pack',
-    subtitle: 'For the startup team who work with new come data stack',
+    title: 'Basic plan',
+    subtitle: 'For independent event organaisers',
     amount: {
-      monthly: 25.99,
-      annual: 25.99 * 12 - 10,
+      monthly: 10,
+      annual: 8,
     },
     isRecommended: false,
     buttonText: 'Start Free Trial',
@@ -21,22 +21,22 @@ const data = [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: 'Automatically generate e-tickets on demand',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `Keep track of your ticket sales`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Reconcile tickets at the door with smart tags`,
       },
       {
         id: 4,
         isAvailable: false,
-        title: `Unlimited download of courses on the mobile app contents`,
+        title: `Unlimited events and entrance controll users`,
       },
       {
         id: 5,
@@ -47,11 +47,11 @@ const data = [
   },
   {
     id: 2,
-    title: 'Premium Pack',
-    subtitle: 'For the Pro users who work with modern data stack',
+    title: 'Premium Plan',
+    subtitle: 'For the pro event organisers that plan multiple events',
     amount: {
-      monthly: 49.99,
-      annual: 49.99 * 12 - 10,
+      monthly: 15,
+      annual: 12,
     },
     isRecommended: true,
     buttonText: 'Start Free Trial',
@@ -59,17 +59,17 @@ const data = [
       {
         id: 1,
         isAvailable: true,
-        title: 'Ultimate access to all course, exercises and assessments',
+        title: 'Everething in the basic plan',
       },
       {
         id: 2,
         isAvailable: true,
-        title: `Free access for all kind of exercise corrections with downloads.`,
+        title: `Unlimited events and entrace controll users`,
       },
       {
         id: 3,
         isAvailable: true,
-        title: `Total assessment corrections with free download access system`,
+        title: `Keep track of cashflow`,
       },
       {
         id: 4,

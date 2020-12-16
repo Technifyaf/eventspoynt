@@ -35,7 +35,7 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} RedQ, Inc
+              &copy; Copyright by {new Date().getFullYear()} Technify 
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>
@@ -53,7 +53,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    backgroundColor: '#2B293E',
+    backgroundColor: '#5E5F5F',
     pt: [6],
     pb: [6],
   },

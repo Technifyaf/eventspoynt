@@ -9,27 +9,27 @@ import check from 'assets/images/icons/check-circle.png';
 const data = [
   {
     id: 1,
-    label: 'Medical and vision',
+    label: 'E-ticket scanning',
   },
   {
     id: 2,
-    label: 'Life insurance',
+    label: 'E-tagging',
   },
   {
     id: 3,
-    label: '400(k) savings',
+    label: 'WhatsApp chat support',
   },
   {
     id: 4,
-    label: 'HSAs and FSAs',
+    label: 'Attendance analytics',
   },
   {
     id: 5,
-    label: 'Commuter benefits',
+    label: 'Works on and offline',
   },
   {
     id: 6,
-    label: '529 college savings',
+    label: 'User management',
   },
 ];
 
@@ -42,7 +42,7 @@ const AppFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Built in one app to make instant reply with in lowest minutes"
+              title="Keep track of attendees and avoid revenue leaks"
               description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
             />
             <Box sx={styles.features}>

@@ -135,8 +135,8 @@ const styles = {
     },
   },
   getStarted: {
-    backgroundColor: '#FFF0D7',
-    color: '#E6A740',
+    backgroundColor: '#F36522',
+    color: '#FFFFFF',
     p: ['0 16px'],
     minHeight: 45,
     ml: [6],

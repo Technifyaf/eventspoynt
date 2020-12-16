@@ -30,7 +30,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              Ultimate support system for leading agencies
+              Everything events
             </Heading>
             <Text as="p">
               Get your tests delivered at let home collect sample from the
@@ -62,7 +62,7 @@ export default Banner;
 
 const styles = {
   section: {
-    backgroundColor: '#FFFCF7',
+    backgroundColor: '#FFFFF',
     pt: [14, null, null, null, null, 0],
     pb: [6, null, null, 7, 11, 0],
   },

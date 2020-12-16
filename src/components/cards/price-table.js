@@ -16,9 +16,9 @@ const PriceTable = ({ price, isAnnual }) => {
         </Heading>
         <Text as="p" sx={styles.priceAmount}>
           {isAnnual
-            ? price?.amount?.annual.toFixed(2)
-            : price?.amount?.monthly.toFixed(2)}
-          /mo
+            ? price?.amount?.annual.toFixed(0)
+            : price?.amount?.monthly.toFixed(0)}
+          % per ticket
         </Text>
         <Text as="p" sx={styles.subtitle}>
           {price.subtitle}
